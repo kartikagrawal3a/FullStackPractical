@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-size: cover;
+  }
+  #top{
+    box-shadow: 0px 0px 15px 2px #dcdcdc;
+  }
+  #head{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 0px auto;
+  }
+  #logo{
+    font-size: 1.6em;
+    display: inline-block;
+    line-height: 9.5vh;
+  }
+  #logo img{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  #logo span{
+    color: #006a4e;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  #head ul{
+    float: right;
+    list-style: none;
+  }
+  #head ul li{
+    display: inline-block;
+    line-height: 9.5vh;
+  }
+  #head ul li a{
+    padding: 7px 13px;
+    margin: 0px 13px;
+    text-decoration: none;
+    transition: all 0.3s;
+    color: black;
+  }
+  #head ul li a:hover{
+    color: #006a4e;
+    border-bottom: 2px solid #006a4e;
+  }
+  #head ul li:nth-last-child(2) button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    background-color: rgb(219, 207, 95);
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  #head ul li:nth-last-child(1) button{
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    background-color: #006a4e;
+    color: white;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 15vh;
+    color: white;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  #main{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #text{
+    width: 44%;
+  }
+  #text p:nth-child(1){
+    font-size: 6.2em;
+    letter-spacing: 4px;
+    color: #006a4e;
+    margin-bottom: 40px;
+  }
+  #text p:nth-child(2){
+    font-family: Arial, Helvetica, sans-serif;
+    color: #006a4e;
+    line-height: 29px;
+    margin-bottom: 25px;
+  }
+  #text p:nth-child(3),#text p:nth-child(4),#text p:nth-child(5),#text p:nth-child(6),#text p:nth-child(7){
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    margin-bottom: 8.5px;
+  }
+  #text p:nth-child(3) span:nth-child(1),#text p:nth-child(4) span:nth-child(1),#text p:nth-child(5) span:nth-child(1),#text p:nth-child(6) span:nth-child(1),#text p:nth-child(7) span:nth-child(1){
+    display: inline-block;
+    background-color: rgb(0, 106, 78,0.3);
+    color: #006a4e;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 15px;
+  }
+  #img{
+    width: 45%;
+  }
+  #img img{
+    display: block;
+    margin-top: 28px;
+    width: 100%;
+    height: auto;
+  }
+  
